@@ -80,7 +80,7 @@ def download_images():
         
         # used to delay download requests (spreads load over time for both you and the webserver)
         time.sleep(wait_time)
-    print(' - - Downloadign Completed - - ')
+    print(' - - Downloading Completed - - ')
 
 if __name__ == '__main__':
     main()
